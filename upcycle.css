@@ -1,0 +1,60 @@
+h1{
+	color: rgb(232,190,75);
+	font-size: 2.8em;
+	font-weight: 100;
+}
+
+.contents-left
+{
+	height: 200px;
+	width: 300px;
+	float: left;
+	padding: 60px 20px;
+	margin: 100px 60px 0px 100px;
+	border: 7px solid rgb(232,190,75);
+	border-radius: 60px;
+	text-align: center;
+}
+
+.contents-right
+{
+	margin: 50px 50px;
+	height: 480px;
+	width: 645px;
+	float: left;
+}
+
+.button
+{
+	float: right;
+	margin: 0px 200px 50px;
+	width: 60px;
+	height: 24px;
+}
+
+#save_png {
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #daf2b4;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    -webkit-transition-property: background-color,color;
+    -moz-transition-property: background-color,color;
+    -ms-transition-property: background-color,color;
+    -o-transition-property: background-color,color;
+    transition-property: background-color,color;
+    -webkit-transition-duration: 0.32s;
+    -moz-transition-duration: 0.32s;
+    -ms-transition-duration: 0.32s;
+    -o-transition-duration: 0.32s;
+    transition-duration: 0.32s;
+}
+#save_png:hover {
+    background-color: #2f2f2f;
+    color: #ff430b;
+}
